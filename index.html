@@ -7,16 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="competitive_programming_photo.png" alt="A compp">
-    <div>
-        <h3>
+    <div class="image-container">
+        <img src="competitive_programming_photo.png" alt="A competitive programming photo">
+    </div>
+    <div class="detail-container">
+        <h5>
             Welcome, Programmer! There will be upcoming competitions 
-            for competitive programming. By signing up you will 
-            be allowed to compete and rank up.  
-        </h3>
-
-        <h3> What are you waiting for? Sign up now.</h3>
-
+            available in the following days. By signing up you are sent notifications about contest details.  
+        </h5>
+        <h5 class="spiel"> What are you waiting for? Sign up now.</h5>
+        <div class="form-container">
+            <h5>Let's do this</h5>
+            <form action="" method="get">
+                <div class="form-row">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" name="phone-number" id="phone-number">                    
+                </div>
+                <div class="form-row">
+                    <label for="pw">Password</label>
+                    <input type="password" name="pw" id="pw">
+                    <label for="c-pw">Confirm Password</label>
+                    <input type="password" name="c-pw" id="c-pw">
+                </div>
+        </div>
+            <button>Create Account</button>
+            </form> 
+            <p>Already have an account? <span class="log-in">Log in</span></p>
     </div>
 </body>
 </html>
