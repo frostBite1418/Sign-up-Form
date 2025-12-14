@@ -139,6 +139,7 @@ button {
 
 button:hover {
     background-color: #3430b2;
+    cursor: pointer;
 }
 
 .bottom-form-container > p {
