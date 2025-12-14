@@ -27,7 +27,7 @@ img {
 }
 
 .top-form-container {
-    margin: 75px 20px 30px 30px;
+    margin: 50px 20px 30px 30px;
     line-height: 1.5;
 }
 
@@ -53,6 +53,16 @@ label {
 .middle-form-container .title {
     margin-top: 10px;
     font-size: 20px;
+    color: rgb(36, 51, 84)
+}
+
+.middle-form-container input{
+    padding: 5px;   
+    width: 200px;
+}
+
+.form-row-1 {
+    margin-right: 50px;
 }
 
 .form-row {
@@ -68,4 +78,19 @@ label {
 button {
     margin-bottom: 10px;
     padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #6b66ff; 
+    border: 0;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #3430b2;
+    font-size: 14px;
+}
+
+.bottom-form-container > p {
+    margin-top: 5px;
+    font-size: 13px;
 }
