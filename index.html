@@ -8,7 +8,11 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="competitive_programming_photo.png" alt="A competitive programming photo">
+        <img src="./img/competitive_programming_photo.png" alt="A competitive programming photo">
+        <div class="overlay-text">
+            <img src="./img/odin_logo.png" alt="odin-logo" class="odin-logo">
+            <div class="odin">Odin</div>
+        </div>
     </div>
     <div class="overall-container">
         <div class="top-form-container">
@@ -24,21 +28,21 @@
                     <div class="form-row">
                         <div class="form-row-1">
                             <label for="first-name">First Name</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <input type="text" id="first-name" name="first-name" placeholder="ex: Juan" required>
                         </div>
                         <div class="form-row-2">
                             <label for="last-name">Last Name</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <input type="text" id="last-name" name="last-name" placeholder="ex: Luna" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-row-1">
                             <label for="email">Email</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" placeholder="ex: juan.luna@gmail.com" required>
                         </div>
                         <div class="form-row-2">
                             <label for="phone-number">Phone Number</label>
-                            <input type="number" name="phone-number" id="phone-number">         
+                            <input type="text" name="phone-number" id="phone-number" placeholder="09xxxxxxxxx">         
                         </div>           
                     </div>
                     <div class="form-row">
@@ -54,7 +58,7 @@
             </div>
             <div class="bottom-form-container">
                 <button>Create Account</button>
-            <p>Already have an account? <a href="">Log in</a></p>
+                <p>Already have an account? <a href="">Log in</a></p>
             </div>
             </form> 
         </div>
